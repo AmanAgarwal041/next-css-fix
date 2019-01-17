@@ -36,7 +36,7 @@ if (buildId) {
 ```
 import Attachcss from './attach-css';
 
-// inside render function of a component add
+// Add this line inside render function of a component
 <Attachcss include={['_app', 'page-name']}/>
 ```
 
